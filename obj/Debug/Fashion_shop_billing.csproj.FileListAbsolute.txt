@@ -1,0 +1,17 @@
+D:\C#_and_.net project\Fashion_shop_billing\bin\Debug\Fashion_shop_billing.exe.config
+D:\C#_and_.net project\Fashion_shop_billing\bin\Debug\Fashion_shop_billing.exe
+D:\C#_and_.net project\Fashion_shop_billing\bin\Debug\Fashion_shop_billing.pdb
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.csprojAssemblyReference.cache
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.AdminDashbroad.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.Properties.Resources.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.csproj.GenerateResource.cache
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.csproj.CoreCompileInputs.cache
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.exe
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.pdb
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.UserDashbroad.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.UI.Userfrm.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.UI.LoginForm.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.UI.Catrgoryfrm.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.UI.ProductForm.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.UI.Dealer_Customer.resources
+D:\C#_and_.net project\Fashion_shop_billing\obj\Debug\Fashion_shop_billing.UI.PurchaseAndSales.resources

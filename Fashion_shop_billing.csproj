@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DABAD76-7ADF-4ADE-AE17-C816369F5ACE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Fashion_shop_billing</RootNamespace>
+    <AssemblyName>Fashion_shop_billing</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\CategoryBll.cs" />
+    <Compile Include="BLL\Deal_Cus_Bll.cs" />
+    <Compile Include="BLL\loginFromBll.cs" />
+    <Compile Include="BLL\ProductBll.cs" />
+    <Compile Include="BLL\transectionBll.cs" />
+    <Compile Include="BLL\transectiondetailBll.cs" />
+    <Compile Include="BLL\UserBll.cs" />
+    <Compile Include="DLL\CategoryDll.cs" />
+    <Compile Include="DLL\Deal_Cus_Dll.cs" />
+    <Compile Include="DLL\loginFormDll.cs" />
+    <Compile Include="DLL\ProductDll.cs" />
+    <Compile Include="DLL\transectionDetailsDll.cs" />
+    <Compile Include="DLL\transectionDll.cs" />
+    <Compile Include="DLL\userDll.cs" />
+    <Compile Include="UI\AdminDashbroad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminDashbroad.Designer.cs">
+      <DependentUpon>AdminDashbroad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Catrgoryfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Catrgoryfrm.Designer.cs">
+      <DependentUpon>Catrgoryfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Dealer_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Dealer_Customer.Designer.cs">
+      <DependentUpon>Dealer_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PurchaseAndSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PurchaseAndSales.Designer.cs">
+      <DependentUpon>PurchaseAndSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Userfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Userfrm.Designer.cs">
+      <DependentUpon>Userfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserDashbroad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserDashbroad.Designer.cs">
+      <DependentUpon>UserDashbroad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\AdminDashbroad.resx">
+      <DependentUpon>AdminDashbroad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Catrgoryfrm.resx">
+      <DependentUpon>Catrgoryfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Dealer_Customer.resx">
+      <DependentUpon>Dealer_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PurchaseAndSales.resx">
+      <DependentUpon>PurchaseAndSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Userfrm.resx">
+      <DependentUpon>Userfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserDashbroad.resx">
+      <DependentUpon>UserDashbroad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
